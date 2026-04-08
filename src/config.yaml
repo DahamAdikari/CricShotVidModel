@@ -1,0 +1,25 @@
+# General
+fps_target: 12
+crop_size: [512, 512]
+pose_stride: 1
+
+# Tracking
+tracker: bytetrack.yaml
+min_track_len: 15
+
+# Batter ROI tuned for end-on broadcast angle
+batter_roi: {x1: 0.40, y1: 0.38, x2: 0.60, y2: 0.72}
+
+# Classes (include 'other' for neither)
+classes: ["cover_drive", "pull_shot", "other"]
+
+# Classifier / windowing
+win_len: 16
+conf_thr: 0.60                  # min probability for top class
+entropy_ratio_thr: 0.75         # fraction of max entropy allowed for acceptance
+min_motion: 0.01                # drop windows with too little joint motion
+
+# Post-processing
+merge_gap_s: 0.80
+pad_pre_s: 0.60
+pad_post_s: 1.20

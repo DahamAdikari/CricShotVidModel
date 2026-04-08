@@ -1,0 +1,14 @@
+ultralytics==8.3.20
+opencv-python
+mediapipe==0.10.14
+numpy
+moviepy
+torch
+torchvision
+torchaudio
+--extra-index-url https://download.pytorch.org/whl/cu121
+scikit-learn
+pandas
+supervision==0.21.0
+pyyaml
+
