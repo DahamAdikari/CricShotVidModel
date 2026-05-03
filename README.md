@@ -263,3 +263,6 @@ If you need improvements:
 - Model tuning  
 
 Open an issue or contact the contributor.
+
+## Visit to the GUI
+[Open CricShotVid GUI](https://github.com/DahamAdikari/CricShotVidGUI)
